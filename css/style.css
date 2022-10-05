@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    background: #FFF5F0;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding-top: 1rem;
+}
+.navbar__main-pages {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+.navbar__main-link {
+    display: flex;
+    align-items: center;
+}
+.unorderlist{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    text-decoration: none;
+}
+.unorderlist-item{
+   list-style: none;
+}
+.navbar__list {
+    list-style: none;
+    cursor: pointer;  
+    color: #737373;
+    font-size: 14px;
+    font-weight: 700;
+}
+.link {
+    cursor: pointer;
+    color: #1BA0AB;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+}
+.btn {
+    color: white;
+    background-color: #1BA0AB;
+    padding: 15px 25px 15px 25px; 
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+/* main */
+.main {
+   height: 100vh;
+   background: #FFF5F0;
+   display: flex;
+   align-items: flex-end;
+   gap: 30px;
+  
+}
+.main__hero {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 8rem;
+    padding-left: 10rem;  
+}
+.title {
+    font-size: 14px;
+    color: #1BA0AB;
+    font-weight: 700;
+}
+.subtitle {
+    font-size: 40px;
+    color: #252B42;
+    font-weight: 700;
+    line-height: 50px;
+}
+.text{
+    font-size: 14px;
+    color: #737373;
+    font-weight: 400;
+    line-height: 20px;
+}
+.title--main-hero {
+    font-size: 16px;
+    line-height: 24px;
+}
+.subtitle--main-hero{
+    font-size: 58px;  
+    line-height: 80px;
+}
+.text--main-hero {
+    font-size: 20px;
+    line-height: 30px;
+}
+.btn--join {
+    padding: 15px 40px;
+    gap: 10px;
+}
+.btn--outlined {
+    background: none;
+    border: 1px solid #1BA0AB;
+    color:  #1BA0AB;
+    padding: 15px 40px 15px 40px;
+}
+/* doctor */
+.doctor-main {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+.doctor-main__text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.doctor-main__line {
+    width: 94px;
+    height: 7px;
+    background: #E74040;
+}
+/* cards */
+.team-section {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.team-section__list {
+    margin-bottom: 5rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.team-section__caption {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card {
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    overflow: hidden;
+    width: 238px;
+ }
+.card__title {
+    padding-top: 2rem;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+.card__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.card__list {
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.card__link {
+    color: #1BA0AB;
+    padding: 0px 10px;
+    align-items: center;
+}
+/* footer */
+.footer-content {
+    background: #FFF5F0;
+    height: 594px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-content__paragraph {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+ /* button */
+.subscribe-content {
+   display: flex;
+   align-items: center;
+   gap: -2px;
+}
+.subscribe-content__input {
+    height: 58px;
+    width: 688px;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding-left: 20px;
+}
+.subscribe-content__input{
+    background-color: #F9F9F9;
+    margin-right: -4px;
+}
+.btn--subscribe{
+    border-radius: 0px 5px 5px 0px;
+    gap: 10px;
+    width: 120px;
+    height: 58px;
+    font-weight: 400; 
+    display: flex;
+    align-items: center;
+}
+
+
